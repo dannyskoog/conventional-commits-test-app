@@ -1,0 +1,4 @@
+PR_TITLE_REGEX: /^.*/ # Accept anything
+COMMIT_MESSAGE_REGEX: /(build|ci|chore|docs|feat|fix|perf|refactor|revert|style|test)(\(.*\))?:(.*)*/
+OUTPUT_TITLE_FAIL: Fail
+OUTPUT_TITLE_SUCCESS: Success
